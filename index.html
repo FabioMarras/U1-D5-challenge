@@ -6,6 +6,7 @@
     <title>Corso web developer</title>
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/font-awesome.css" />
   </head>
 
   <body>
@@ -19,7 +20,7 @@
           Smetti di inseguire i titoli, inizia a lavorare. Mentre tuti vogliono arricchire il CV, tu pensa ad arricchire
           le tue competenze.
         </p>
-        <button><a href="main">PARTIAMO</a></button>
+        <button>PARTIAMO!</button>
       </nav>
     </header>
     <main>
@@ -27,7 +28,7 @@
         <h3>Tutti ti cercheranno</h3>
         <p>Sono 30.000 in Italia le posizioni di developer scoperte, scegli quella che ti stimola di più</p>
         <h3>Lavora dove vuoi</h3>
-        <p>lavora da casa, in rivva al mare o in montagna</p>
+        <p>lavora da casa, in riva al mare o in montagna</p>
         <div>
           <img id="img-radius" src="./images/notebook.jpg" alt="notebook" />
         </div>
@@ -38,35 +39,42 @@
           <p>Non serve lavorare in ufficio per essere creatori di prodotti digitali</p>
         </div>
         <div class="orange">
-          <h2>Epicode garantisce</h2>
+          <h2 class="bold">Epicode garantisce</h2>
           <p>"3 mesi intensivi di corso che cambieranno radicalmente la tua vita"</p>
-          <p>Mario Rossi <br /><strong style="font-size: 22px">CEO, Epicode</strong></p>
+          <p>Mario Rossi <br /><strong style="font-size: 30px">CEO, Epicode</strong></p>
         </div>
       </article>
       <aside>
-        <div>
-          <img src="./images/foto1.jpg" alt="pc" /><a href="#"> <br />Il tuo pc</a>
+        <div class="aside">
+          <img class="a" src="./images/foto1.jpg" alt="pc" />
+          <strong>Il tuo pc</strong>
           <br />
-          Se vuoi diventare developer è l'unico strumento di cui hai bisogno.
+          <p class="mg">Se vuoi diventare developer è l'unico strumento di cui hai bisogno.</p>
         </div>
-        <div>
-          <img src="./images/foto2.jpg" alt="pc" /> <br />
-          <a href="#">Impara ora</a>
+        <div class="aside">
+          <img class="a" src="./images/foto2.jpg" alt="pc" /> <br />
+          <strong>Impara ora</strong>
+          <br />
+          <p class="mg">Impara da chi diventerai tra qualche anno e diventa una rockstar come loro.</p>
         </div>
-        <br />
-        Impara da chi diventerai tra qualche anno e diventa una rockstar come loro.
-        <div><img src="./images/foto3.jpg" alt="pc" /> <br /><a href="#">Lavora subito</a></div>
-        <br />
-        Sappiamo cosa vogliono le aziende perchè lavoriamo con loro
+        <div class="aside">
+          <img class="a" src="./images/foto3.jpg" alt="pc" /> <br />
+          <strong>Lavora subito</strong>
+          <br />
+          <p class="mg">Sappiamo cosa vogliono le aziende perchè lavoriamo con loro</p>
+        </div>
       </aside>
     </main>
     <footer>
-      <p>Contattaci</p>
-      (+39)11223456 <br />
-      <a href="mailto:info@epicode.school">info@epicode.school</a> <br />
-      Via Appia 1 - 00100 Roma (RM)
-      <hr />
-      2021, Immagini di <a href="#">Pixabay</a>
+      <p class="bold">Contattaci</p>
+      <div>
+        <a href="tel:+3911223456"><i class="fas fa-phone-square-alt fa-spin"></i>(+39)11223456</a> <br />
+        <a href="mailto:info@epicode.school"><i class="fas fa-envelope"></i>info@epicode.school</a> <br />
+        <i class="fas fa-external-link-square-alt"></i>Via Appia 1 - 00100 Roma (RM)
+        <!--Certi awesome non li prende, l'ultima è di diverso colore rispetto alle altre-->
+        <hr />
+        2021, Immagini di <a href="#">Pixabay</a>
+      </div>
     </footer>
   </body>
 </html>
